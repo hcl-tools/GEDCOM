@@ -26,7 +26,7 @@ Here are a few sources for information on the gedcom file format.
  - [WHAT A GEDCOM FILE IS](https://en.wikipedia.org/wiki/GEDCOM)
  - [THE FORMAT OF THE FILE](http://user.it.uu.se/~andersa/gedcom/ch2.html)
  - [HOW INDIVIDUALS ARE FORMATED](http://user.it.uu.se/~andersa/gedcom/ch2.html#SINDIVIDUAL_RECORD)
- - [HOW FAMILIES ARE FORMATED(http://user.it.uu.se/~andersa/gedcom/ch2.html#SFAMILY_RECORD)
+ - [HOW FAMILIES ARE FORMATED](http://user.it.uu.se/~andersa/gedcom/ch2.html#SFAMILY_RECORD)
 
 ## A little helper.
 Use the number to the left of each line as an indent count. The larger the number, the more indented it is.
