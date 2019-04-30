@@ -8,6 +8,7 @@ public class Person {
     private String lastName;    // Doe
     private char sex;           // M
     private String birthdate;   // 30/03/1890
+    private String deathDate;   // 21/01/1921
     private String id;          // @I1@
     private HashMap<String, Object> events = new HashMap<>();
 
@@ -25,6 +26,7 @@ public class Person {
     public String getFirstName() { return this.firstName; }
     public String getLastName() { return this.lastName; }
     public String getBirthdate() { return this.birthdate; }
+    public String getDeathDate() { return this.deathDate; }
     public String getId() { return this.id; }
 
     public char getSex() { return this.sex; }
@@ -40,6 +42,7 @@ public class Person {
     }
     public void setID(String id) { this.id = id; }
     public void setBirthdate(String bday) { this.birthdate = bday; }
+    public void setDeathDate(String dod) { this.deathDate = dod; }
 
     public void addEvent(String eventTitle, Object info) {
         this.events.put(eventTitle, info);
@@ -47,6 +50,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "[Person] ID: " + this.id + ", NAME: " + this.getName() + ", SEX: " + String.valueOf(this.sex) + ", DOB: " + this.birthdate;
+        return "[Person] ID: " + this.id + ", NAME: " + this.getName() + ", SEX: " + String.valueOf(this.sex) + ", DOB: " + this.birthdate + ", DOD: " + this.deathDate;
     }
 }
